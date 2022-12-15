@@ -1,12 +1,5 @@
 import pandas as pd
-#import openpyxl
-from glob import glob
-import datetime
-import time
-import sys
-args = sys.argv
 import streamlit as st
-from PIL import Image
 
 st.title('指揮官能力値')
 
