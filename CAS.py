@@ -13,7 +13,7 @@ df = df.set_axis(b, axis='columns')
 
 with st.form("my_form", clear_on_submit=False):
     heisyu = st.selectbox(label='兵種を選択してください', options=['全兵種','歩兵','騎兵','槍兵','弓兵'])
-    ST = st.selectbox(label='ソート能力値選択', options=['信仰\nHPバフ','武勇\n攻撃バフ','知恵\nクリダメ','計略\n防御バフ','幸運\nクリ率'])
+    ST = st.selectbox(label='ソート能力値選択', options=['信仰\nHPバフ','武勇\n攻撃バフ','知恵\nクリダメ','計略\n防御バフ','幸運\nクリ率','攻防体関係値合計'])
     submitted = st.form_submit_button("表示")
 
 if submitted:
