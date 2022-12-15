@@ -30,4 +30,5 @@ if submitted:
     else:
         df1 = df
     df2 = df1.sort_values(ST, ascending=False)
-    st.dataframe(df2)
+    df3 =df2.set_index('指揮官')
+    st.dataframe(df3)
