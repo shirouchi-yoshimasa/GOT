@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
+import time
 
 st.title('指揮官能力値')
 
