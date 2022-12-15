@@ -10,7 +10,7 @@ from PIL import Image
 
 st.title('指揮官能力値')
 
-df = pd.read_excel('CAS.xlsx',encoding='shift_jis')
+df = pd.read_csv('CAS.csv',encoding='shift_jis')
 
 with st.form("my_form", clear_on_submit=False):
     heisyu = st.selectbox(label='兵種を選択してください', options=['全兵種','歩兵','騎兵','槍兵','弓兵'])
